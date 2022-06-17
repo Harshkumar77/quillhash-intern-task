@@ -28,10 +28,12 @@ Block api: When a user block another user then his/her image should not be shown
 1. User
 
 ```json
+{
     email : string
     hashed password : string
     name : string
     gender : male or female
+    bio : string
     blocked users : [userId]
     liked users : [userId]
     superliked users : [userid]
@@ -42,4 +44,5 @@ Block api: When a user block another user then his/her image should not be shown
             type : liked or superliked
         }
     ]
+}
 ```
